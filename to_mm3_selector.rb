@@ -36,11 +36,6 @@ File.open('Final Fantasy-GodMode.sav') do |fh|
   end
 end
 
-puts Base64.urlsafe_encode64(string).tap { |l| puts l.length }
-
-
-exit
-
 loop do
   break if current_row.length == WIDTH
 
